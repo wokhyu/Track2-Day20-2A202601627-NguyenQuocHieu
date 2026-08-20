@@ -214,21 +214,21 @@ gian client. Bài học: một con số tok/s không kèm ngữ cảnh đo ở �
 
 ## 8. Self-check trước khi push
 
-- [ ] `hardware.json` committed
-- [ ] `models/active.json` committed
-- [ ] `benchmarks/01-quickstart-results.md` committed (`make bench`)
-- [ ] `benchmarks/01-tuning-tg128.md` committed (`make tune`)
-- [ ] `benchmarks/02-server-results.md` committed (`make load-report`)
-- [ ] `benchmarks/02-server-batching-u50.md` hoặc `-metrics-u50.csv` committed (`make metrics`)
-- [ ] `benchmarks/locust-10_stats.csv` + `locust-50_stats.csv` committed (`make load-10` / `load-50`)
-- [ ] `benchmarks/03-integration-results.md` committed (`make pipeline`)
+- [x] `hardware.json` committed
+- [x] `models/active.json` committed
+- [x] `benchmarks/01-quickstart-results.md` committed (`make bench`)
+- [x] `benchmarks/01-tuning-tg128.md` committed (`make tune`)
+- [x] `benchmarks/02-server-results.md` committed (`make load-report`)
+- [x] `benchmarks/02-server-batching-u50.md` hoặc `-metrics-u50.csv` committed (`make metrics`)
+- [x] `benchmarks/locust-10_stats.csv` + `locust-50_stats.csv` committed (`make load-10` / `load-50`)
+- [x] `benchmarks/03-integration-results.md` committed (`make pipeline`)
 - [x] Mọi section **"required — replace this line"** trong các file `benchmarks/*.md`
       đã được thay bằng nhận xét của bạn
 - [x] 5 screenshots trong `submission/screenshots/` (hiện có 7)
-- [ ] `make verify` → **exit 0**
-- [ ] Repo GitHub ở chế độ **public**
+- [x] `make verify` → **exit 0**
+- [x] Repo GitHub ở chế độ **public**
 - [ ] Đã paste public URL vào VinUni LMS
-- [ ] **Không** commit `models/*.gguf` hay `runtime/` (đã có trong `.gitignore`)
+- [x] **Không** commit `models/*.gguf` hay `runtime/` (đã có trong `.gitignore`)
 
 **Quan trọng:** repo phải **public** đến khi điểm được công bố. Private → grader không
 xem được → 0 điểm.
